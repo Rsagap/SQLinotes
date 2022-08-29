@@ -14,6 +14,10 @@ SQL injection is a web security vulnerability that allows an attacker to interfe
 ## Tools:
 1. [SQLMap](https://github.com/sqlmapproject/sqlmap)
 
+### Using SQLMap
+1. [Cheat sheet Image](https://raw.githubusercontent.com/binexploit/SQLinotes/main/Images/sqlmap-cheatsheet.webp)
+
+
 
 ## Where to look for SQLi?
 To exploit a SQL injection flaw, an attacker needs to find a parameter that the web application passes through to a database interaction. An attacker can then embed malicious SQL commands into the content of the parameter, to trick the web application to forward a malicious query to the database.
